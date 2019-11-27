@@ -13,7 +13,7 @@ const Hello: React.FC<Props> = (name, enthusiasmLevel = 1) => {
   return (
     <div className="hello">
       <div className="greetings">
-        Hello {name + getExclamationMarks(enthusisasmLevel)}
+        Hello {name + getExclamationMarks(enthusiasmLevel)}
       </div>
     </div>
   );
